@@ -2,8 +2,8 @@
 
 command -v git || exitwda
 
-GIT_USER=${GIT_USER:-Michael Scherer}
-GIT_EMAIL=${GIT_EMAIL:-mail@scherermichael.net}
+GIT_USER=${GIT_USER}
+GIT_EMAIL=${GIT_EMAIL}
 
 git config --global user.name "${GIT_USER}"
 git config --global user.email ${GIT_EMAIL}
